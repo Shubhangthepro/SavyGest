@@ -1,4 +1,5 @@
-✋ SavyGest: Smart Real-Time Hand Gesture Recognition
+# ✋ **SavyGest: Smart Real-Time Hand Gesture Recognition**
+
 A sleek, real-time hand gesture recognition system built with Python, MediaPipe, TensorFlow, and OpenCV.
 SavyGest enables natural and intuitive control of games and applications using custom hand gestures.
 
