@@ -66,4 +66,4 @@ python game_controller.py
 
 💬 Author
 Crafted with ❤️ by Shubhang Shrivastav
-🔗 GitHub: @Shubhangthepro
+🔗 GitHub: https://github.com/Shubhangthepro
