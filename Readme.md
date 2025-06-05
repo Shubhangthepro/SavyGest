@@ -1,55 +1,69 @@
 ✋ SavyGest: Smart Real-Time Hand Gesture Recognition
-A sleek, modern, and versatile hand gesture recognition system built with Python, MediaPipe, TensorFlow, and OpenCV. Effortlessly recognizes custom gestures in real time to enable natural and intuitive control of apps and devices.
+A sleek, real-time hand gesture recognition system built with Python, MediaPipe, TensorFlow, and OpenCV.
+SavyGest enables natural and intuitive control of games and applications using custom hand gestures.
 
 🚀 Features
-✅ Real-time Gesture Detection
-Detects hand landmarks and classifies gestures instantly from webcam input.
+✅ Real-Time Detection
+Capture hand gestures instantly from webcam feed using MediaPipe’s fast hand tracking.
 
 ✅ Custom Gesture Set
-Supports alphabets (A-Z), digits (0-9), and special characters tailored to your needs.
+Recognizes A–Z, 0–9, and special characters. Fully extendable for custom symbols.
 
 ✅ Deep Learning Powered
-Uses a neural network trained with TensorFlow Keras for high accuracy.
+Backed by a trained TensorFlow Keras model for high-accuracy classification.
 
-✅ Plug & Play Integration
-Use recognized gestures to control games, software, or custom applications.
+✅ App/Game Controller
+Simulate keyboard or mouse inputs via gestures — control any game or app intuitively.
 
-✅ Open & Extensible
-Python-based, easy to set up, customize, and extend for your projects.
+✅ Plug & Play
+Just run the script — no complex setup. Easy to integrate into any Python-based project.
 
-🛠️ Built With
-Python 3.10
+✅ Open-Source & Extensible
+Designed for developers: easy to read, modify, and expand with new features or gestures.
 
-TensorFlow / Keras
+🛠️ Tech Stack
+🐍 Python 3.10
 
-MediaPipe
+🧠 TensorFlow / Keras – Gesture classification
 
-OpenCV
+👋 MediaPipe – Hand landmark tracking
 
-scikit-learn
+🎥 OpenCV – Webcam and image processing
 
-pyautogui
+🧮 scikit-learn – Model utilities
 
-🧪 How to Use
-Collect Gesture Data
-Capture hand landmark data via webcam using the data collection script.
+🎮 pyautogui – Control keyboard and mouse with gestures
 
-Train the Model
-Train your custom gesture recognition model (train_model.py).
+🧪 How It Works
+1️⃣ Collect Gesture Data
+Run the script to capture webcam hand landmarks and label them as custom gestures.
 
-Run Real-Time Prediction
-Launch live gesture detection with real_time_predictor.py.
+2️⃣ Train the Model
+Use train_model.py to train a neural network on your collected data.
 
-Control Applications
-Use gestures to interact with apps via keyboard/mouse simulation.
+3️⃣ Real-Time Prediction
+Launch real_time_predictor.py to recognize gestures live from webcam feed.
+
+4️⃣ Control Applications
+Optionally run game_controller.py to simulate key/mouse events and control games or apps.
 
 📥 Run Locally
 bash
-Copy code
+Copy
+Edit
+# Install dependencies
 pip install tensorflow mediapipe opencv-python pandas scikit-learn pyautogui
+
+# Train the model
 python train_model.py
+
+# Start real-time gesture recognition
 python real_time_predictor.py
-python game_controller.py # Optional
+
+# Optional: Enable game/app control
+python game_controller.py
+💡 Ensure your webcam is working and Python 3.10 is installed.
+
 💬 Author
 Crafted with ❤️ by Shubhang Shrivastav
-GitHub Profile : https://github.com/Shubhangthepro
+🔗 GitHub: @Shubhangthepro
